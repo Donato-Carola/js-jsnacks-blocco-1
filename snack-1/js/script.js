@@ -11,5 +11,6 @@ if (firstAge > secondAge) {
 }else if (secondAge>firstAge ){
     console.log('Secondage è più grande');
 
-}else{('eta sono uguali');
+}else{
+    console.log('eta sono uguali');
 }
