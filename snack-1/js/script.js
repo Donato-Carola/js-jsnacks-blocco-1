@@ -3,7 +3,7 @@
 
 
 const firstAge = parseInt(prompt('inserisci gli anni della prima persona'));
-const secondAge = parseInt(prompt('inserisci gli anni della prima persona'));
+const secondAge = parseInt(prompt('inserisci gli anni della seconda persona'));
 
 if (firstAge > secondAge) {
     
