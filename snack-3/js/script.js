@@ -3,10 +3,26 @@
 
 const listElem = document.querySelector('div.list');
 
-for (let i=0; i<=10; i++){
+/*for (let i=0; i<=10; i++){
+
      const elem=`<h1>${i*2}</h1>`;
-     console.log(elem)
+     console.log(i)
      listElem.innerHTML += elem;
 
 
+}*/
+
+//esercizio con correzione
+
+for (let i=0; i<=20; i = i + 2 ){
+
+   // const elem=`<h1>${i*2}</h1>`;
+    console.log(i)
+    //listElem.innerHTML += elem;
+
+
 }
+
+
+
+
