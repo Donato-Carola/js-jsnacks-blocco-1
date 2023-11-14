@@ -5,6 +5,7 @@ const listElem = document.querySelector('div.list');
 
 for (let i=0; i<=10; i++){
      const elem=`<h1>${i*2}</h1>`;
+     console.log(elem)
      listElem.innerHTML += elem;
 
 
