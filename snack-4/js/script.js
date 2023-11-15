@@ -6,7 +6,8 @@ for (let i=1; i<=100; i++){
     //console.log(i)
     if(i % 7 == 0 || i % 8 == 0){
         num.push(i);   
-        console.log(i);
+        //console.log(i);
+        
     }
 
-}
+}console.log(num);
