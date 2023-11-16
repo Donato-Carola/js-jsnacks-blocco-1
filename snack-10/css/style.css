@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+.center-box{
+   text-align: center;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+div>button{
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 1rem;
+    font-size: xx-large;
+    
+}
+
+.random-number{
+    width: 100%;
+    font-size: x-large;
+    text-align: left;
+}
