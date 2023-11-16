@@ -6,7 +6,8 @@
 //? Creo un array vuoto
 
 const array = [];
-
+const number = document.getElementById('number');
+const numberOrder = document.getElementById('numberOrder');
 
 //? Chiedere all'utente i 6 numeri
 for (let i=1; i<=6;i++){
@@ -14,11 +15,16 @@ const numberUser = prompt(`inserisci numero ${i}`);
 console.log(numberUser);
 if(numberUser % 2 === 1){
     array.push(numberUser);
-    console.log(`numeri dispari in disordine: ${array} `);
+    console.log(`numeri dispari in disordine: ${array}`);
+    number.innerHTML = `numeri dispari in disordine: ${array}`;
+    array.sort();
+    console.log(`numeri dispari in ordine: ${array}`);
+    numberOrder.innerHTML = `numeri dispari in ordine: ${array}`;
 }
 
- array.sort();
- console.log(`numeri dispari in ordine: ${array} `);
+
+
+
 
 }
 
