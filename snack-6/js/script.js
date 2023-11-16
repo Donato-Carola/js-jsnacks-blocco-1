@@ -5,15 +5,29 @@ chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
 
 const arrayName = ['mario', 'gigino','topolino', 'paperino', 'pippo'];
 
+const userName = prompt('inserisci il tuo nome')
 
+let found=false;
 
-const inputUser = document.querySelector("button");
+for (let i=0; i<arrayName.length;i++){
+    const name=arrayName[i];
+    if(userName == name){
+        found = true;
+        console.log(`nome trovato ${userName}`);
+    }
+    
+}
+
+console.log(found);
+
+/*const inputUser = document.querySelector("button");
+
 
 let found=false;
 
 inputUser.addEventListener("click",
 function(){
-const nameUser = document.querySelector('input').value
+const nameUser = document.querySelector('input').value;
 for (let i=0; i<arrayName.length;i++){
     const name=arrayName[i];
     console.log(name);
@@ -30,3 +44,6 @@ if(found ) {
 
 
 })
+*/
+
+
