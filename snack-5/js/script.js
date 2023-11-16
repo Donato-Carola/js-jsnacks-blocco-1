@@ -11,3 +11,8 @@ console.log(lengthFirstWord);
 const lengthSecondWord = secondUser.length;
 console.log(lengthSecondWord);
 
+if ( lengthFirstWord > lengthSecondWord){
+    console.log(secondUser,firstUser)
+}else{
+    console.log(firstUser,secondUser)
+}
