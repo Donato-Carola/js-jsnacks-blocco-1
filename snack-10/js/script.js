@@ -13,6 +13,6 @@ button.addEventListener("click",
 function(){
     const randomNumber = (Math.random());
     console.log(randomNumber) ;
-    const multi = randomNumber * 3;
-    number.innerHTML=(`numero random <br> ${randomNumber} x 3 = ${multi}`);
+    const add = randomNumber + 3;
+    number.innerHTML=(`numero random <br> ${randomNumber} + 3 = ${add}`);
 })
