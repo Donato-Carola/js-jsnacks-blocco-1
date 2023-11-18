@@ -13,19 +13,19 @@ const calc = document.querySelector('button');
 
 
 
-
 calc.addEventListener("click", 
 function(){
    const numberMinUser = parseInt(document.getElementById('numberMin').value);
     const numberMaxUser = parseInt(document.getElementById('numberMax').value);
-
+let numeroFinale = numberMinUser ;
     console.log(numberMinUser, numberMaxUser);
 
-    if (numberMinUser<=numberMaxUser){
-        const result=numberMinUser * 2;
-        console.log(`moltiplicazione per due con il numero minimo ${result}`)
-    }else{
-        console.log(`la moltiplicazione si è fermata perchè il numero minimo è maggiore del numero massimo`)
-    }
-
+    for(let i=0; i< 1; i++){
+   numeroFinale=numeroFinale*2;
+   if (numeroFinale<numberMaxUser){
+    i--;
+   }
+   console.log(`il valore della moltiplicazione per due è:`,numeroFinale)
+}
+console.warn('Risultato:' ,numeroFinale)
 })
